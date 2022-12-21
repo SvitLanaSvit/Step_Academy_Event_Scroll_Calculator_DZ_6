@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style/style2.css" rel="stylesheet">
+</head>
+<body>
+    <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Hello, world of DOM</div>
+    <div>Second</div>
+    <script>
+        document.addEventListener("DOMContentLoaded", ()=>{
+            let div = document.querySelector("div");
+            div.addEventListener("click", (e)=>{
+                let style = window.getComputedStyle(div);
+                console.log(style.backgroundColor);
+                console.log(style.getPropertyValue("background-color"));
+            });
+        });
+
+    </script>
+</body>
+</html>

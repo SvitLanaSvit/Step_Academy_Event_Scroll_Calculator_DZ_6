@@ -1,0 +1,353 @@
+/*---------------1----------------*/
+#numericupdown{
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: beige;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.mainNumeric{
+    max-width: 100px;
+
+    display: flex;
+}
+
+#up, #down{
+    border: 1px solid black;
+    height: 21px;
+    width: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+/*---------------2----------------*/
+
+.wrapper{
+    max-width: 700px;
+}
+
+#colorBlocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#lightblue{
+    background-color: lightblue;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#forestgreen{
+    background-color: forestgreen;
+    width: 60px;
+    height: 30px;
+    margin: 5px; 
+}
+
+#coral{
+    background-color: coral;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#cornflowerblue{
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#cyan{
+    background-color: cyan;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#darkcyan{
+    background-color: darkcyan;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#darkgoldenrod{
+    background-color: darkgoldenrod;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#darkmagenta{
+    background-color: darkmagenta;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#darkorchid{
+    background-color: darkorchid;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+    
+
+#darkorange{
+    background-color: darkorange;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#darkseagreen{
+    background-color: darkseagreen;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+    
+}
+
+#fuchsia{
+    background-color: fuchsia;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#darkred{
+    background-color: darkred;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#deeppink{
+    background-color: deeppink;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#deepskyblue{
+    background-color: deepskyblue;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+
+#buttonBlock{
+    width: 500px;
+    margin-top: 10px;
+}
+
+.container{
+    text-align: center;
+}
+
+/*---------------3----------------*/
+
+#lightblue_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#forestgreen_{
+    width: 30px;
+    height: 30px;
+    margin: 2px; 
+    border: 1px solid black;
+}
+
+#coral+{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#cornflowerblue_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#cyan_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#darkcyan+{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#darkgoldenrod_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#darkmagenta_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#darkorchid_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+    
+
+#darkorange_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#darkseagreen_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+    
+}
+
+#fuchsia_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#darkred_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#deeppink_{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+#colorContainer{
+    width: 218px;
+    background-color: azure;
+    border: 1px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#text{
+    text-align: justify;
+}
+
+/*---------------6----------------*/
+#display{
+    max-width: 288px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: azure;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 35px;
+}
+
+#buttonsContainer{
+    max-width: 288px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number, .operation{
+    width: 70px;
+    height: 70px;
+    background-color: azure;
+    font-size: 35px;
+    border: 1px solid black;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#equals{
+    width: 142px;
+    height: 70px;
+    background-color: azure;
+    font-size: 35px;
+    border: 1px solid black;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcCenter{
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------7----------------*/
+.textNews button{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: coral;
+    cursor: pointer;
+}
+
+.textNews{
+    position: relative;
+}
+
+.text{
+    text-align: justify;
+}
+
+#textMain{
+    height: 500px;
+    overflow: scroll;
+    padding: 10px;
+}
